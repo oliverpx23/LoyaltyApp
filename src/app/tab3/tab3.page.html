@@ -1,17 +1,59 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+
+<ion-header no-border>
+  <ion-toolbar color="secondary">
+    <ion-title>Cuenta</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content id="account" class="ion-padding">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <!-- User/Profile Infos -->
+  <ion-item lines="none">
+    <!-- Avatar/Image of User -->
+    <ion-avatar slot="end">
+      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+    </ion-avatar>
+
+    <!-- Name of User -->
+    <ion-label>
+      <h2>Oliver Pots</h2>
+      <p>7498824-1</p>
+    </ion-label>
+  </ion-item>
+
+
+
+  <ion-card>
+    <ion-item-group>
+      <ion-item lines="none">
+        <ion-label>Historial de canjes</ion-label>
+        <ion-icon name="arrow-forward" size="small" slot="end"></ion-icon>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>Completar datos</ion-label>
+        <ion-icon name="arrow-forward" size="small" slot="end"></ion-icon>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>Compartir codigo de Referido</ion-label>
+        <ion-icon name="arrow-forward" size="small" slot="end"></ion-icon>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>Preguntas y respuestas</ion-label>
+        <ion-icon name="arrow-forward" size="small" slot="end"></ion-icon>
+      </ion-item>
+    </ion-item-group>
+  </ion-card>
+
+  <ion-card>
+    <ion-item-group>
+      <ion-item lines="none">
+        <ion-label>Datos Personales</ion-label>
+        <ion-icon name="arrow-forward" size="small" slot="end"></ion-icon>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>Sugerencias</ion-label>
+        <ion-icon name="arrow-forward" size="small" slot="end"></ion-icon>
+      </ion-item>
+    </ion-item-group>
+  </ion-card>
 </ion-content>

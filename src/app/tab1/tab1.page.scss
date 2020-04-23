@@ -1,3 +1,143 @@
-ion-content ion-toolbar {
-  --background: translucent;
+ion-toolbar {
+  --border-width: 0;
+  --background: var(--ion-color-secondary) !important;
+  --color: white !important;
+}
+
+
+.background-holder {
+  //background: #0047cc;
+  background: var(--ion-color-secondary);
+  height: 30vh;
+}
+
+.top-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+  top: 1vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 85%;
+
+  .top-row {
+
+      padding: 0 10px;
+
+      #right-col
+      {
+         p
+         {
+          color: var(--ion-color-tertiary) !important;
+          font-family: 'AvenirH' !important; 
+         }
+      }
+
+      p {
+          color: #77869E !important;
+          font-family: 'AvenirR' !important;
+          font-size: 0.9rem !important;
+          margin: 0 !important;
+
+          strong
+          {
+              color: #042C5C !important;
+              font-family: 'AvenirH' !important;
+          }
+      }
+  }
+
+  .precentage-row 
+  {
+      background: transparent !important;
+      margin-top: -60px;
+      z-index: 20;
+
+      .col-left 
+      {
+          padding-left: 20px;
+      }
+
+      .col-right 
+      {
+          padding-right: 20px;
+      }
+
+      p 
+      {
+          color: #77869E !important;
+          font-family: 'AvenirM' !important;
+          margin: 0 !important;
+      }
+  }
+}
+
+.guage-top-content
+{
+  margin: 0 auto;
+  top: 80px !important;
+  z-index: 40;
+  p 
+  {
+      color: #77869E;
+      font-family: 'AvenirH' !important;
+      margin: 0 !important;
+  }
+}
+
+  .bottom-section
+  {
+      margin-top: 70px;
+      .btns-holder 
+      {
+          margin-top: 10px;
+          padding: 8px 16px;
+          ion-button
+          {
+              --background: var(--ion-color-primary);
+              --border-radius: 12px !important;
+              --box-shadow: none;
+              --color: white;
+              height: 50px !important;
+          }
+      }
+
+  
+}
+
+
+#featured-products {
+  .card-img {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 150px;
+  }
+
+  .product-name {
+      padding: 0;
+      text-align: left;
+
+      h4 {
+          font-size: 1rem;
+          color: rgba(8, 8, 8, 0.58);
+      }
+  }
+
+  .previous-price {
+      text-decoration: line-through;
+      font-size: 0.8rem;
+  }
+
+  ion-fab-button {
+      --background: transparent;
+      --background-focused: transparent;
+      --background-activated: transparent;
+  }
+
+  .text-bold {
+      font-weight: bold;
+  }
 }

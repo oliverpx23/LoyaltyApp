@@ -1,0 +1,47 @@
+#landing-page {
+    text-align: center;
+
+    .section_one {
+        height: 15%;
+
+        h2 {
+            font-weight: 900;
+            padding-top: 5%;
+        }
+
+        p {
+            color: var(--ion-color-primary);
+            font-weight: bold;
+        }
+    }
+
+    .section_two {
+        height: 30%;
+    }
+
+    .section_three {
+        height: 55%;
+        padding: 10px;
+
+        p {
+            font-size: 1rem;
+            color: #6d6b6b;
+        }
+    }
+
+    a.btn-social,
+    .btn-social {
+        border-radius: 50%;
+        color: #ffffff !important;
+        display: inline-block;
+        height: 54px;
+        line-height: 54px;
+        margin: 8px 4px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .3s;
+        width: 54px;
+    }
+
+
+}

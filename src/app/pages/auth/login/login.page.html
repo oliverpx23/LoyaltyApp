@@ -1,0 +1,70 @@
+<!-- 
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="secondary" default-href="" text="" icon="arrow-round-back" routerLink="/landing"
+        routerDirection="root">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> -->
+
+<!-- Contents -->
+<ion-content id="signin" fullscreen>
+  <div class="section_one">
+    <h2>La Vienesa - Loyalty</h2>
+    <p>Canjea tus puntos de compra</p>
+  </div>
+
+  <div class="section_two ion-padding">
+    <img class="ion-padding" src="assets/sale.svg" />
+
+    <!-- SignIn Form -->
+    <form class="ion-padding">
+      <!-- Email -->
+      <ion-item>
+        <ion-label>
+          <ion-icon color="primary" size="large" name="person-circle-outline"></ion-icon>
+        </ion-label>
+        <ion-input type="email" placeholder="Email" name="email"></ion-input>
+      </ion-item>
+
+      <br>
+
+      <!-- Password -->
+      <ion-item>
+        <ion-label>
+          <ion-icon color="primary" size="large" name="key-outline"></ion-icon>
+        </ion-label>
+        <ion-input type="password" placeholder="Contraseña" name="password"></ion-input>
+      </ion-item>
+
+      <!-- Forget Password Button -->
+      <ion-button expand="block" color="secondary" fill="clear" slot="end" routerLink="/forget-password"
+        routerDirection="root">
+        Olvidaste tu contraseña?
+      </ion-button>
+
+
+      <!-- SignIn Buttons -->
+      <div class="buttons">
+        <ion-button expand="block" color="primary" routerLink="/tabs" routerDirection="root">
+          <ion-text><strong>Ingresar</strong></ion-text>
+        </ion-button>
+
+        <!-- <p>O ingresa con tus redes</p>
+
+        <a href="" target="_blank" class="btn-social btn-facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="" target="_blank" class="btn-social btn-google-plus"><ion-icon name="logo-google"></ion-icon></a> -->
+
+      </div>
+    </form>
+  </div>
+
+  <!-- SignUp Buttons -->
+  <div class="section_three">
+    <ion-button fill="clear" color="secondary" routerLink="/register" routerDirection="root">
+      <span>No tienes cuenta? <b>Registrate!</b></span>
+    </ion-button>
+  </div>
+</ion-content>

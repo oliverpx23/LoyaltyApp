@@ -1,0 +1,73 @@
+
+
+<!-- Contents -->
+<ion-content id="signup" fullscreen>
+  <div class="section_one">
+    <h2>Registro</h2>
+    <p>Completa tus datos y crea tu cuenta</p>
+  </div>
+
+  <!-- SignUp Form -->
+  <div class="section_two ion-padding">
+    <form class="ion-padding">
+      <!-- Name -->
+      
+      <ion-item>
+        <ion-label>
+          <ion-icon name="person" color="secondary"></ion-icon>
+        </ion-label>
+        <ion-input type="text" placeholder="Usuario" name="name"></ion-input>
+      </ion-item>
+
+      <br>
+
+      <ion-item>
+        <ion-label>
+          <ion-icon name="journal-outline" color="secondary"></ion-icon>
+        </ion-label>
+        <ion-input type="text" placeholder="RUC" name="email"></ion-input>
+      </ion-item>
+
+      <br>
+
+      <!-- Email -->
+      <ion-item>
+        <ion-label>
+          <ion-icon name="key-outline" color="secondary"></ion-icon>
+        </ion-label>
+        <ion-input type="password" placeholder="Contraseña" name="email"></ion-input>
+      </ion-item>
+
+      <br>
+
+      <!-- Phone Number -->
+      <ion-item>
+        <ion-label>
+          <ion-icon name="key-outline" color="secondary"></ion-icon>
+        </ion-label>
+        <ion-input type="password" placeholder="Repetir contraseña" name="phone"></ion-input>
+      </ion-item>
+
+      <br>
+
+      <!-- Password -->
+      <ion-item>
+        <ion-label>
+          <ion-icon name="person-add-outline" color="secondary"></ion-icon>
+        </ion-label>
+        <ion-input type="text" placeholder="Codigo de Referido" name="password"></ion-input>
+      </ion-item>
+
+      <!-- SignUp Button -->
+      <div class="buttons ion-padding-top">
+        <ion-button expand="block" color="primary" routerLink="/tabs/tab1" routerDirection="root">
+          <ion-text><strong>Registrar</strong></ion-text>
+        </ion-button>
+        <ion-button expand="block" fill="outline"  color="primary" routerLink="/tabs/tab1" routerDirection="root">
+          <ion-text><strong>Cancelar</strong></ion-text>
+        </ion-button>
+
+      </div>
+    </form>
+  </div>
+</ion-content>
